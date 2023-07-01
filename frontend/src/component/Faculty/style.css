@@ -1,0 +1,40 @@
+.faculty-container{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.faculty-container> .faculty-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.faculty-container> .faculty-heading> p{
+    font-size: 25px;
+    color: black;
+    padding: 0px 25px;
+    border-radius: 5px;
+}
+.faculty-container> .faculty-heading> p:hover{
+    background-color: rgb(106, 106, 106);
+    cursor: pointer;
+    color: white;
+}
+.faculty-container> .faculty-heading> img{
+    width: 100px;
+}
+.faculty-container> .faculty-inner-container{
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}

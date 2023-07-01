@@ -1,0 +1,27 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.footer-container> .links{
+    display: flex;
+    gap: 40px;
+}
+.footer-container> .links> i{
+    font-size: 21px;
+    /* border: 1px solid black; */
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-container> .links> i:hover{
+    background-color: grey;
+    color: white;
+}
+.footer-container> .links> p{
+    font-size: 19px;
+}

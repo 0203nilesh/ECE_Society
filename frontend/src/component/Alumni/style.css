@@ -1,0 +1,44 @@
+.alumni-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    /* padding: 10px; */
+    /* border: 2px solid black; */
+    margin-top: 30px;
+}
+.alumni-container> .alumni-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(59, 69, 69); */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.alumni-container> .alumni-heading > p{
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    /* border: 0.3px solid black; */
+    color: black;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.alumni-container> .alumni-heading > p:hover{
+    background-color: rgb(116, 116, 116);
+    border-color: rgb(159, 159, 159);
+    color: white;
+}
+.alumni-container> .alumni-heading> img{
+    width: 100px;
+    /* filter: invert(100%); */
+}
+.alumni-container> .alumni-innet-box{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}

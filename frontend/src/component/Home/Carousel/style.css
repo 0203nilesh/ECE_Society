@@ -1,0 +1,19 @@
+.carousels{
+    /* border: 2px solid black; */
+    background-image:  linear-gradient(rgb(62, 63, 72), #342e2e, rgb(73, 73, 82)) ;
+    box-shadow: 1px 1px  4px rgb(20, 114, 172);
+    width: 40%;
+    color: black;
+    border-radius: 15px;
+}
+.carousels:hover{
+    box-shadow: 2px 3px 4px gray;
+}
+.carousel-img{
+    height: 350px;
+    /* height: auto; */
+    filter: invert(100%);
+}
+.carousels-indicator{
+    color: black;
+}

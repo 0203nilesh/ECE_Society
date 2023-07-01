@@ -1,0 +1,129 @@
+.home-container> .goalNvision-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    /* border: 2px solid black; */
+    align-items: center;
+    flex-direction: column;
+}
+.home-container> .goalNvision-container> .goalNvision-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    /* background-color: gray; */
+}
+
+.home-container> .goalNvision-container> .goalNvision-heading> p> img{
+    width: 35px;
+    margin-bottom: 0px;
+}
+.home-container> .goalNvision-container> .goalNvision-heading> p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 19px;
+    color: black;
+    border: 1px solid black;
+    padding: 2px 10px;
+    border-radius: 10px;
+    /* border-radius: 10px; */
+    box-shadow: 1px 1px 4px black;
+}
+/* .home-container> .goalNvision-container> .goalNvision-heading> p:hover {
+    border-color:transparent;
+    background-color: grey;
+    color: white;
+} */
+.home-container> .goalNvision-container> .goalNvision-content{
+    width: 95%;
+    padding: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.home-container> .goalNvision-container> .goalNvision-content> div> p> .heading{
+    font-size: 29px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+.home-container> .goalNvision-container> .goalNvision-content> div> img{
+    height: 300px;
+}
+.home-container> .goalNvision-container> .goalNvision-content> .goal-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-container> .goalNvision-container> .goalNvision-content> .goal-box> p{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: justify;
+    gap: 20px;
+    padding: 20px;
+}
+.home-container> .goalNvision-container> .goalNvision-content> .vision-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-container> .goalNvision-container> .goalNvision-content> .vision-box> p{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+@media screen and (max-width: 800px) {
+    .home-container> .goalNvision-container> .goalNvision-content> div> img{
+        height: 250px;
+    }
+    .home-container> .goalNvision-container> .goalNvision-content> .goal-box> p{
+        width: 60%;
+    }
+    .home-container> .goalNvision-container> .goalNvision-content> .vision-box> p{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .home-container> .goalNvision-container> .goalNvision-content> div> img{
+        height: 200px;
+    }
+    .home-container> .goalNvision-container> .goalNvision-content> .goal-box> p{
+        width: 80%;
+        padding: 10px;
+    }
+    .home-container> .goalNvision-container> .goalNvision-content> .vision-box> p{
+        padding: 10px;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .home-container> .goalNvision-container> .goalNvision-content> div> img{
+        height: 150px;
+    }
+    .home-container> .goalNvision-container> .goalNvision-content > .goal-box{
+        flex-direction: column;
+        border-bottom: 1px solid grey;
+        padding-bottom: 20px;
+    }
+    .home-container> .goalNvision-container> .goalNvision-content > .vision-box{
+        flex-direction: column-reverse;
+    }
+    .home-container> .goalNvision-container> .goalNvision-content> .goal-box> p{
+        width: 90%;
+        padding: 0px;
+        gap: 5px;
+        margin-right: 5px;
+        text-align: justify;
+    }   
+    .home-container> .goalNvision-container> .goalNvision-content> .vision-box> p{
+        margin-left: 5px;
+        padding: 0px;
+        gap: 5px;
+        width: 80%;
+    }
+}

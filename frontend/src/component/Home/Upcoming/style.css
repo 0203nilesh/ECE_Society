@@ -1,0 +1,149 @@
+.home-container> .event-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    /* border: 2px solid grey; */
+}
+.home-container> .event-container> .event-heading{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    color: white;
+}
+.home-container> .event-container> .event-heading> p{
+    margin-top: 10px;
+    font-size: 19px;
+    color: black;
+    border: 1px solid black;
+    padding: 3px 10px;
+    /* border-radius: 10px; */
+    box-shadow: 1px 1px 4px black;
+}
+.home-container> .event-container> .event-heading> p:hover{
+    background-color: inherit;
+    color: black;
+}
+
+.home-container> .event-container> .event-carousel{
+    /* border: 2px solid black; */
+    /* margin: 20px; */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.home-container> .event-container> .event-carousel> img{
+    height: 200px;
+    width: 350px;
+}
+.home-container> .event-container> .event-carousel> .event-details{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.event-container> .event-carousel> .event-details >.upcoming-img{
+    width: 90px !important;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+.home-container> .event-container> .event-carousel> .event-details> .event-heading{
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.home-container> .event-container> .event-carousel> .event-details> .event-date{
+    align-self: flex-end;
+    border: 1px solid black;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+.home-container> .event-container> .event-carousel> .event-details> .event-date:hover{
+    background-color: grey;
+    color: white;
+    border-color: grey;
+    cursor: pointer;
+}
+.home-container> .event-container> .event-carousel> .event-details> .event-description{
+    text-align: justify;
+    padding: 25px;
+}
+@media screen and (max-width: 1200px ) {
+    .home-container> .event-container> .event-carousel> .event-details> .event-heading{
+        align-self: flex-end;
+        margin-right: 40px;
+    }
+    .event-container> .event-carousel> .event-details >.upcoming-img{
+        left: 10px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .home-container> .event-container> .event-carousel> .event-details> .event-heading{
+        margin-right: 0px;
+        align-self: center;
+    }
+    .event-container> .event-carousel> .event-details{
+        width: 70% !important;
+    }
+}
+@media screen and (max-width: 850px) {
+    .home-container> .event-container> .event-carousel> .event-details> .event-heading{
+        align-self: flex-end;
+    }
+    .event-container> .event-carousel> .event-details >.upcoming-img{
+        left: 0;
+    }
+    .event-container> .event-carousel> .event-details {
+        width: 90% !important;
+    }
+    .home-container> .event-container> .event-carousel> img{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .home-container> .event-container> .event-carousel> .event-details> .event-heading{
+        align-self: center;
+    }
+    .event-carousel> .event-details> .event-heading{
+        font-size: 23px !important;
+    }
+    .event-carousel{
+        flex-direction: column;
+        gap: 0px !important;
+    }
+    .event-carousel> .event-details{
+        width: 100% !important;
+        padding-bottom: 0px !important;
+    }
+    .event-carousel> .event-details> p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .home-container> .event-container> .event-carousel> .event-details> .event-heading{
+        align-self: flex-end;
+    }
+    .home-container> .event-container> .event-carousel> .event-details> .event-description{
+        padding: 15px;
+    }
+    .home-container> .event-container> .event-carousel> .event-details> .event-date{
+        align-self: flex-end;
+        margin-right: 0;
+    }
+}
