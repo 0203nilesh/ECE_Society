@@ -8,7 +8,7 @@ import Navbar from '../Common/Navbar/Navbar';
 import Footer from '../Common/Footer/Footer';
 
 export default function Members() {
-  const [memberYear, setMemberYear]= useState("2019");
+  const [memberYear, setMemberYear]= useState("2020");
   const dispatch= useDispatch();
   const {memberData} = useSelector((state)=>state.member);
   let newMemberData= memberData;
@@ -31,8 +31,8 @@ export default function Members() {
             <p>Members</p>
         </div>
         <div className="filterByYear">
-          <p onClick={()=>setMemberYear("2020")}>2020</p>
           <p onClick={()=>setMemberYear("2021")} >2021</p>
+          <p onClick={()=>setMemberYear("2020")}>2020</p>
           <p onClick={()=>setMemberYear("2019")} >2019</p>
         </div>
         <div className="member-inner-container">

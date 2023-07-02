@@ -10,15 +10,14 @@
     display: flex;
     gap: 40px;
 }
-.footer-container> .links> i{
-    font-size: 21px;
-    /* border: 1px solid black; */
-    padding: 5px;
+.footer-container> .links> a{
+    font-size: 23px;
+    padding: 0px;
+    color: black;
+    padding: 0px 5px;
     border-radius: 5px;
-    text-align: center;
-    cursor: pointer;
 }
-.footer-container> .links> i:hover{
+.footer-container> .links> a:hover{
     background-color: grey;
     color: white;
 }
