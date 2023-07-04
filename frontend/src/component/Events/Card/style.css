@@ -1,6 +1,6 @@
 .event-card {
   width: 450px;
-  height: 300px;
+  height: 300px ;
   perspective: 1000px;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .event-card> .card-inner> .card-back {
-  background-color: #F08A5D;
+  background-color: #000000;
   color: #fff;
   display: flex;
   align-items: center;

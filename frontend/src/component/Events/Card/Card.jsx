@@ -8,13 +8,13 @@ export default function Card({data}) {
     <div class="event-card">
   <div class="card-inner">
     <div class="card-front">
-      <p className="event-heading">Event Heading</p>
-      <p className='event-venue'> <span>Date</span>  <span>Block 3 EEE Department</span> </p>
-      <p className='event-description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus eius accusantium distinctio neque repudiandae omnis debitis placeat. Hic placeat voluptatem fugiat quibusdam. </p>
+      <p className="event-heading">{data?.name}</p>
+      <p className='event-venue'> <span> {data?.date} </span>  <span> {data?.venue} </span> </p>
+      <p className='event-description'> {data?.description} </p>
     </div>
     <div class="card-back">
       {/* <p>Back Side</p> */}
-      <Carousel data={data} />
+      <Carousel data={data.image} />
     </div>
   </div>
 </div>
